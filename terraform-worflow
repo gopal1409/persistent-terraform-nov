@@ -1,7 +1,7 @@
 ##we will clone the repo 
 git clone https://github.com/gopal1409/persistent-terraform-manifest.git
 #go inside the repo 
-cd persistent-terraform-manifes
+cd persistent-terraform-manifest
 ###in the code. 
 nano ec2.tf
 ##change the subnet id from the vpc select public subnet
