@@ -2,3 +2,10 @@
 https://chocolatey.org/install
 ###once finish installation close the powershell. 
 agains start the powershell in admin mode
+####
+choco install terraform
+choco install git
+choco install awscli
+
+###finally install visual studio code also
+https://code.visualstudio.com/download
