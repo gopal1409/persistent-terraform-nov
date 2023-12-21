@@ -1,0 +1,10 @@
+clone the repo
+  mkdir project1
+  cd project1
+  git clone https://github.com/gopal1409/persistent-terraform-manifest.git
+cd persistent-terraform-manifest
+  nano ec2-update.tf
+  ###change the subnet id use the public subnet. 
+  terraform init
+  terraform apply
+  
