@@ -7,4 +7,14 @@ cd persistent-terraform-manifest
   ###change the subnet id use the public subnet. 
   terraform init
   terraform apply
-  
+###lets add the security group before that we will destroy the resource
+terraform destroy
+git stash
+git pull
+###modify the subnet id
+nano ec2-update.tf
+  #####modify the sg and add the vpc id
+nano a3.sg.tf
+#####then apply iy
+terraform apply
+###copy the public ip paster it in the browser you will see the test page
